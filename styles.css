@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: #967012;
+    font-family: 'Fira Mono', monospace;
+    background-color: #FEFFD1;
+
+}
+
+h2{
+    color: rgb(141, 107, 75);
+}
+.description-list, p{
+    font-family: 'Inconsolata', monospace;
+}
+nav{
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+img {
+    max-width: 100%;
+    
+}
+header{
+    top: 100 px;
+    position: relative;
+    margin-bottom: 140px;
+    background-image: url('images/20VID1.png');
+    background-repeat: no-repeat;
+}
+
+.project{
+    margin: 30px;
+}
+.cream{
+    background-color: #F6EEC5;
+}
+.project .button{
+    margin-top: 30px;
+}
+/*buttons*/
+
+.button{
+    color: #2F2F2F;
+    display: inline-block;
+    border: 1.5px solid #2F2F2F;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: all 0.5s;
+
+}
+
+.button:hover{
+    border-color: #F6EEC5;
+    background: #2F2F2F;
+    color: #F6EEC5;
+    transition: 0.5s;
+}
+
+/*swiper*/
+.container .swiper{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    float: right;
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-pagination{
+    width: 25px;
+    height: 25px;
+    border: 10px sienna;
+}
+
+/* INFO EDIT */
+
+.pfp{
+    box-shadow: 1px 2px 10px #2F2F2F;
+}
+.aptitudes{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 150px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+/*nav edits*/
+
+nav ul li{
+    display: inline;
+    margin: 90px ;
+    padding: 0;
+}
+body, ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    background-color: #F6EEC5;
+}
+
+/* transitions */
+
+#work{
+    transition: all 1s;
+}
