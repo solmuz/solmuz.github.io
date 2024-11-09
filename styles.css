@@ -2,14 +2,15 @@ body{
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    color: #967012;
+    color: oklch(58.75% 0.0099 293.82);
     font-family: 'Fira Mono', monospace;
-    background-color: #FEFFD1;
+    background-color: oklch(18.1% 0.0099 293.82);
 
 }
 
 h2{
-    color: rgb(141, 107, 75);
+    text-align: center;
+    color: oklch(83.09% 0.0099 293.82);
 }
 .description-list, p{
     font-family: 'Inconsolata', monospace;
@@ -21,19 +22,15 @@ img {
     max-width: 100%;
     
 }
-header{
-    top: 100 px;
-    position: relative;
-    margin-bottom: 140px;
-    background-image: url('images/20VID1.png');
-    background-repeat: no-repeat;
+li{
+    font-family: 'inconsolata', monospace;
 }
 
 .project{
     margin: 30px;
 }
 .cream{
-    background-color: #F6EEC5;
+    background-color: oklch(22.55% 0.0099 293.82);
 }
 .project .button{
     margin-top: 30px;
@@ -41,9 +38,10 @@ header{
 /*buttons*/
 
 .button{
-    color: #2F2F2F;
+    background: oklch(33.53% 0.0099 293.82);
+    color: oklch(58.75% 0.0099 293.82);
     display: inline-block;
-    border: 1.5px solid #2F2F2F;
+    border: 1.5px solid oklch(58.75% 0.0099 293.82);
     text-decoration: none;
     padding: 5px;
     border-radius: 15px;
@@ -87,7 +85,7 @@ header{
 /* INFO EDIT */
 
 .pfp{
-    box-shadow: 1px 2px 10px #2F2F2F;
+    box-shadow: 3px px 20px #000000;
 }
 .aptitudes{
     text-align: center;
@@ -96,19 +94,34 @@ header{
     font-family: 'Encode Sans Condensed', sans-serif;
 }
 
+.card{
+    background: oklch(25.22% 0.0099 293.82);
+    color: oklch(58.75% 0.0099 293.82);
+    border: 1.5px solid oklch(58.75% 0.0099 293.82);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.card:hover{
+    border-color: #F6EEC5;
+    background: #2F2F2F;
+    color: #F6EEC5;
+    transition: 0.5s;
+}
 /*nav edits*/
 
 nav ul li{
     display: inline;
     margin: 90px ;
-    padding: 0;
+    padding: 5px;
 }
 body, ul{
-    margin: 0;
-    padding: 0;
+    margin: 5;
+    padding: 5;
 }
 nav ul {
-    margin: 0 auto;
+    margin: 5 auto;
     text-align: center;
 }
 
@@ -116,7 +129,7 @@ footer{
     text-align: center;
     margin-top: 500px;
     margin-bottom: 500px;
-    background-color: #F6EEC5;
+    background-color: oklch(24.04% 0.0271 293);
 }
 
 /* transitions */
